@@ -1,0 +1,34 @@
+# https://github.com/PyCQA/pylint/blob/master/pylintrc
+
+
+[MESSAGE CONTROL]
+
+disable=
+    attribute-defined-outside-init,
+    duplicate-code,
+    invalid-name,
+    missing-docstring,
+    protected-access,
+    too-few-public-methods,
+    format,
+    missing-module-docstring,
+    no-self-use,
+    logging-format-interpolation,
+
+[BASIC]
+
+good-names=i,j,k,ex,Run,_,__,db,f
+
+[VARIABLES]
+
+dummy-variables-rgx=__|args|kwargs
+
+
+[FORMAT]
+
+max-line-length=88
+
+
+[DESIGN]
+
+ignored-argument-names=__|args|kwargs
